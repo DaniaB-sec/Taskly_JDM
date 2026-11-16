@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskly | Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1><i class="bi bi-check2-square"></i> Taskly</h1>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <h2>Entrar</h2>
+            <form id="formLogin">
+                <div class="campo-grupo">
+                    <label for="email"><i class="bi bi-envelope"></i> Email:</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                </div>
+                <div class="campo-grupo">
+                    <label for="senha"><i class="bi bi-lock"></i> Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Sua senha" required>
+                </div>
+                <button type="submit" class="botao-principal">
+                    <i class="bi bi-box-arrow-in-right"></i> Entrar
+                </button>
+            </form>
+            <p style="text-align: center; margin-top: 15px;">
+                Não tem conta? <a href="cadastro.html" style="color: var(--cor-primaria);">Cadastre-se</a>
+            </p>
+        </div>
+    </main>
+
+    <script src="js/login.js" defer></script>
+</body>
+</html>
